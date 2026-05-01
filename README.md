@@ -95,6 +95,10 @@ On kernels where `algif_aead` is built directly into the kernel instead of being
 available as a loadable module, modprobe-based blocking may not be sufficient.
 Follow your distribution or vendor guidance in that case.
 
+For untrusted workload environments such as containers, sandboxes, and CI
+runners, also consider blocking AF_ALG socket creation with seccomp according
+to your platform and distribution guidance.
+
 ## Tested behavior
 
 On a tested Ubuntu/Mint-style system, before applying the mitigation, the safe
