@@ -2,7 +2,7 @@
 
 Emergency mitigation for **CVE-2026-31431**, also known as **Copy Fail**.
 
-This project does **not** patch the Linux kernel.
+This script does **not** patch the Linux kernel.
 
 It provides a small defensive hotfix script that blocks the vulnerable
 `algif_aead` kernel module from loading, attempts to unload it if it is already
