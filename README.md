@@ -118,6 +118,6 @@ This indicates that the emergency mitigation was active on the tested system.
 
 Use this script at your own risk.
 
-This project is provided for defensive mitigation purposes only. It is intended
+This script is provided for defensive mitigation purposes only. It is intended
 to help system owners reduce exposure until an official fixed kernel is
 installed and booted.
