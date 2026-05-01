@@ -101,7 +101,7 @@ to your platform and distribution guidance.
 
 ## Tested behavior
 
-On a tested Ubuntu/Mint-style system, before applying the mitigation, the safe
+On a tested Ubuntu/Mint based distributions system, before applying the mitigation, the safe
 checker reported that AF_ALG AEAD bind was available.
 
 After applying the hotfix and rebooting:
